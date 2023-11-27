@@ -40,3 +40,4 @@ class ActionError(ChatbotError):
         super().__init__(*args)
 
 
+class ActionNotAllowedError(ActionError):
