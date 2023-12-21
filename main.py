@@ -80,3 +80,4 @@ class ErrorType(Enum):
     AUTHENTICATION_ERROR = 7
     CLOUDFLARE_ERROR = 8
 
+
