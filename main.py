@@ -81,3 +81,4 @@ class ErrorType(Enum):
     CLOUDFLARE_ERROR = 8
 
 
+class Error(ChatbotError):
