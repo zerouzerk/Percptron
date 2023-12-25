@@ -89,3 +89,4 @@ class Error(ChatbotError):
     def __init__(
         self,
         source: str,
+        message: str,
