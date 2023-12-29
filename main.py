@@ -95,3 +95,4 @@ class Error(ChatbotError):
     ) -> None:
         self.source: str = source
         self.message: str = message
+        self.code: ErrorType | int = code
