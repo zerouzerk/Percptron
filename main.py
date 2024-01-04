@@ -99,3 +99,4 @@ class Error(ChatbotError):
         super().__init__(*args)
 
     def __str__(self) -> str:
+        return f"{self.source}: {self.message} (code: {self.code})"
