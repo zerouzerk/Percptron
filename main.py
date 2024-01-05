@@ -100,3 +100,4 @@ class Error(ChatbotError):
 
     def __str__(self) -> str:
         return f"{self.source}: {self.message} (code: {self.code})"
+
