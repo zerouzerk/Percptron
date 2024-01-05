@@ -102,3 +102,4 @@ class Error(ChatbotError):
         return f"{self.source}: {self.message} (code: {self.code})"
 
     def __repr__(self) -> str:
+        return f"{self.source}: {self.message} (code: {self.code})"
