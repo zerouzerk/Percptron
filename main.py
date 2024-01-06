@@ -105,3 +105,4 @@ class Error(ChatbotError):
         return f"{self.source}: {self.message} (code: {self.code})"
 
 
+class AuthenticationError(ChatbotError):
