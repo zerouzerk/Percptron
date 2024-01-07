@@ -107,3 +107,4 @@ class Error(ChatbotError):
 
 class AuthenticationError(ChatbotError):
     """
+    Subclass of ChatbotError
