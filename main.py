@@ -110,3 +110,4 @@ class AuthenticationError(ChatbotError):
     Subclass of ChatbotError
 
     The object of the error thrown by a validation failure or exception
+    """
