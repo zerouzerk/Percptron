@@ -117,3 +117,4 @@ class AuthenticationError(ChatbotError):
             super().add_note(
                 "Please check if your key is correct, maybe it may not be valid",
             )
+        super().__init__(*args)
