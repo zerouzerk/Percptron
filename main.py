@@ -120,3 +120,4 @@ class AuthenticationError(ChatbotError):
         super().__init__(*args)
 
 
+class APIConnectionError(ChatbotError):
