@@ -128,3 +128,4 @@ class APIConnectionError(ChatbotError):
     other miscellaneous reasons
     """
 
+    def __init__(self, *args: object) -> None:
