@@ -132,3 +132,4 @@ class APIConnectionError(ChatbotError):
         if SUPPORT_ADD_NOTES:
             super().add_note(
                 "Please check if there is a problem with your network connection",
+            )
