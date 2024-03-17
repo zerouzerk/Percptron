@@ -136,3 +136,4 @@ class APIConnectionError(ChatbotError):
         super().__init__(*args)
 
 
+class NotAllowRunning(ActionNotAllowedError):
