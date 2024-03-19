@@ -138,3 +138,4 @@ class APIConnectionError(ChatbotError):
 
 class NotAllowRunning(ActionNotAllowedError):
     """
+    Subclass of ActionNotAllowedError
