@@ -141,3 +141,4 @@ class NotAllowRunning(ActionNotAllowedError):
     Subclass of ActionNotAllowedError
 
     Direct startup is not allowed for some reason
+    """
