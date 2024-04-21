@@ -144,3 +144,4 @@ class NotAllowRunning(ActionNotAllowedError):
     """
 
 
+class ResponseError(APIConnectionError):
