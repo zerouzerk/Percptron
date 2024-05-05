@@ -149,3 +149,4 @@ class ResponseError(APIConnectionError):
     Subclass of APIConnectionError
 
     Error objects caused by API request errors due to network or other miscellaneous reasons
+    """
