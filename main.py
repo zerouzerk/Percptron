@@ -154,3 +154,4 @@ class ResponseError(APIConnectionError):
 
 class OpenAIError(APIConnectionError):
     """
+    Subclass of APIConnectionError
