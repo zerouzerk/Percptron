@@ -157,3 +157,4 @@ class OpenAIError(APIConnectionError):
     Subclass of APIConnectionError
 
 from enum import Enum
+from typing import Union
