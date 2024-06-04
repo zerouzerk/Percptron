@@ -173,3 +173,4 @@ class ChatbotError(Exception):
         if SUPPORT_ADD_NOTES:
             super().add_note(
                 "Please check that the input is correct, or you can resolve this issue by filing an issue",
+            )
