@@ -178,3 +178,4 @@ class ChatbotError(Exception):
         super().__init__(*args)
 
 
+class ActionError(ChatbotError):
