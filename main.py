@@ -202,3 +202,4 @@ class ActionNotAllowedError(ActionError):
 
 
 class ActionRefuseError(ActionError):
+    """
