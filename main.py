@@ -206,3 +206,4 @@ class ActionRefuseError(ActionError):
     Subclass of ActionError
 
     An object that throws an error because the execution of a refused operation is blocked.
+    """
