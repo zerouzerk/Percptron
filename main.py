@@ -219,3 +219,4 @@ class CLIError(ChatbotError):
 
 class ErrorType(Enum):
     """
+    Enumeration class for different types of errors.
