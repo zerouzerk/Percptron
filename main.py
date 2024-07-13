@@ -217,3 +217,4 @@ class CLIError(ChatbotError):
     """
 
 
+class ErrorType(Enum):
