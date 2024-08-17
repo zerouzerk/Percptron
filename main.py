@@ -223,3 +223,4 @@ class ErrorType(Enum):
     """
 
     USER_ERROR = -1
+    UNKNOWN_ERROR = 0
