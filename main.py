@@ -222,3 +222,4 @@ class ErrorType(Enum):
     Enumeration class for different types of errors.
     """
 
+    USER_ERROR = -1
