@@ -245,3 +245,4 @@ class Error(ChatbotError):
         message: str,
         *args: object,
         code: Union[ErrorType, int] = ErrorType.UNKNOWN_ERROR,
+    ) -> None:
