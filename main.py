@@ -274,3 +274,4 @@ class ChatbotError(Exception):
                 "Please check that the input is correct, or you can resolve this issue by filing an issue",
             )
             super().add_note("Project URL: https://github.com/acheong08/ChatGPT")
+        super().__init__(*args)
