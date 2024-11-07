@@ -290,3 +290,4 @@ class ActionError(ChatbotError):
                 "The current operation is not allowed, which may be intentional",
             )
         super().__init__(*args)
+
