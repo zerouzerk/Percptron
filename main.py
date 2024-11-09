@@ -294,3 +294,4 @@ class ActionError(ChatbotError):
 
 class ActionNotAllowedError(ActionError):
     """
+    Subclass of ActionError
