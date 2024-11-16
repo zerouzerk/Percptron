@@ -302,3 +302,4 @@ class ActionNotAllowedError(ActionError):
 
 class ActionRefuseError(ActionError):
     """
+    Subclass of ActionError
