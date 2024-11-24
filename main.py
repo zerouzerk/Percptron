@@ -314,3 +314,4 @@ class CLIError(ChatbotError):
 
     The error caused by a CLI program error
     """
+
