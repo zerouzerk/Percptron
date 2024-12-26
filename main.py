@@ -342,3 +342,4 @@ class Error(ChatbotError):
         self,
         source: str,
         message: str,
+        *args: object,
