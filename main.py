@@ -353,3 +353,4 @@ class Error(ChatbotError):
 """
 
 import os
+import platform
