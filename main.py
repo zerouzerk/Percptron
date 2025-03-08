@@ -368,3 +368,4 @@ class ChatbotError(Exception):
     """
 
     def __init__(self, *args: object) -> None:
+        if SUPPORT_ADD_NOTES:
