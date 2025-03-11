@@ -374,3 +374,4 @@ class ChatbotError(Exception):
             )
             super().add_note("Project URL: https://github.com/acheong08/ChatGPT")
         super().__init__(*args)
+
