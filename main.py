@@ -378,3 +378,4 @@ class ChatbotError(Exception):
 
 class ActionError(ChatbotError):
     """
+    Subclass of ChatbotError
