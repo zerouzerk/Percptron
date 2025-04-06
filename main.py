@@ -383,3 +383,4 @@ class ActionError(ChatbotError):
     An object that throws an error because the execution of an operation is blocked
     """
 
+    def __init__(self, *args: object) -> None:
