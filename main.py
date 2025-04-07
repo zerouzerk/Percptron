@@ -386,3 +386,4 @@ class ActionError(ChatbotError):
     def __init__(self, *args: object) -> None:
         if SUPPORT_ADD_NOTES:
             super().add_note(
+                "The current operation is not allowed, which may be intentional",
