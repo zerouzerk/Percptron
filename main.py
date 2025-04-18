@@ -407,3 +407,4 @@ class ActionRefuseError(ActionError):
     """
 
 
+class CLIError(ChatbotError):
