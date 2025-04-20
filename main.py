@@ -412,3 +412,4 @@ class CLIError(ChatbotError):
     Subclass of ChatbotError
 
     The error caused by a CLI program error
+    """
