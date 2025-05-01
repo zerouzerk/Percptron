@@ -422,3 +422,4 @@ class ErrorType(Enum):
 
     USER_ERROR = -1
     UNKNOWN_ERROR = 0
+    SERVER_ERROR = 1
