@@ -424,3 +424,4 @@ class ErrorType(Enum):
     UNKNOWN_ERROR = 0
     SERVER_ERROR = 1
     RATE_LIMIT_ERROR = 2
+    INVALID_REQUEST_ERROR = 3
