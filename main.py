@@ -433,3 +433,4 @@ class ErrorType(Enum):
 
 
 class Error(ChatbotError):
+    """
