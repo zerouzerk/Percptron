@@ -438,3 +438,4 @@ class Error(ChatbotError):
     """
 
     def __init__(
+        self,
