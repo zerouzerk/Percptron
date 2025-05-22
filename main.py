@@ -442,3 +442,4 @@ class Error(ChatbotError):
         source: str,
         message: str,
         *args: object,
+        code: Union[ErrorType, int] = ErrorType.UNKNOWN_ERROR,
