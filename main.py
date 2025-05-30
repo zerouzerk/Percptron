@@ -448,3 +448,4 @@ class Error(ChatbotError):
         self.message: str = message
         self.code: ErrorType | int = code
         super().__init__(*args)
+
