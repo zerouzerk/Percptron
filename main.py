@@ -466,3 +466,4 @@ class ChatbotError(Exception):
     Base class for all Chatbot errors in this Project
     """
 
+    def __init__(self, *args: object) -> None:
